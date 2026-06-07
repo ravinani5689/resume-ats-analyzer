@@ -1,0 +1,21 @@
+{
+  "name": "resume-ats-analyzer-server",
+  "version": "1.0.0",
+  "description": "Backend API for Resume ATS Analyzer",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "flask run",
+    "test": "pytest"
+  },
+  "dependencies": [
+    "Flask==2.3.3",
+    "Flask-CORS==4.0.0",
+    "python-dotenv==1.0.0",
+    "PyPDF2==3.0.1",
+    "python-docx==0.8.11",
+    "nltk==3.8.1",
+    "spaCy==3.6.1",
+    "requests==2.31.0"
+  ]
+}
